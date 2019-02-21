@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-image: linear-gradient(to right, #25b2cc, #a3ccc8);
+}
+
+.navbar-brand {
+    padding-left: 10px;
+    font-size: 25px !important;
+    color: white !important;
+}
+
+.navbar-nav a {
+    color: white !important
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+
+}
+
+
+#mainBody {
+    background-image: linear-gradient(to right, #25b2cc, #a3ccc8);
+
+}
+
+#imageArea {
+    padding: 40px;
+}
+
+.introPara {
+    font-size: 5vw;
+    padding-top: 30px;
+    padding-left: 10px  ;
+    font-family: sans-serif;
+    color: white;
+}
+
+#moreAbout {
+    background-image: linear-gradient(to right, #25b2cc, #a3ccc8);
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    size: 300px;
+    width: 100%;
+    height: inherit;
+}
+
+#moreAboutFont {
+    color: white;
+}

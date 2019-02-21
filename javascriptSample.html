@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script>
+        function changeHead() {
+            document.getElementById("heading").innerHTML = "New Heading"
+        }
+        function showAlert() {
+            window.alert("Alert Message!!!")
+        }
+
+        function getinput() {
+            var name = document.forms["myForm"]["name"].value;
+            window.alert(name)
+        }
+
+    </script>
+
+    <title>Title</title>
+</head>
+<body>
+    <h1 id="heading">Welcome</h1>
+    <button onclick="changeHead()">Button</button>
+    <button onclick="showAlert()">Alert</button>
+
+    <br><br><br>
+
+    <form name="myForm">
+
+    <input type="text" name="name"> <input type="submit" value="Submit" onclick="getinput()">
+
+    </form>
+
+
+        <form name="calculator">
+            <h3 id="numberDisplay"> 0 </h3>
+            <input type="button" id="one" value="1">
+            <input type="button" id="two" value="2">
+            <input type="button" id="three" value="3">
+            <input type="button" id="multiply" value="*">
+
+            <br>
+            <input type="button" id="four" value="4">
+            <input type="button" id="five" value="5">
+            <input type="button" id="six" value="6">
+            <input type="button" id="add" value="+">
+
+            <br>
+            <input type="button" id="seven" value="7">
+            <input type="button" id="eight" value="8">
+            <input type="button" id="nine" value="9">
+            <input type="button" id="zero" value="0">
+
+
+
+
+
+
+
+        </form>
+</body>
+</html>
